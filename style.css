@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+.flag {
+  height: 20px;
+  margin-right: 5px;
+}
+.middle {
+  gap: 20px;
+}
+.home {
+  color: #ff324d;
+}
+._navbar:hover {
+  color: #ff324d;
+}
+.titre {
+  font-size: 65px;
+  font-weight: 700;
+}
+.banniere {
+  background-image: url("images/banner8.jpg");
+  background-size: cover; /* Pour couvrir entièrement l'espace disponible */
+  background-position: center; /* Centrer l'image de fond */
+  height: 400px; /* Hauteur de la bannière, ajustez selon vos besoins */
+  position: relative;
+}
+.text-container {
+  position: absolute; /* Positionnement absolu par rapport à .banniere */
+  top: 50%; /* Centrage vertical */
+  left: 0; /* Aligné à gauche */
+  transform: translateY(-50%); /* Ajustement fin pour centrer verticalement */
+  text-align: left; /* Aligner le texte à gauche */
+  width: 100%; /* Assurez-vous que la largeur couvre la bannière */
+  padding-left: 20px; /* Ajustez selon les besoins pour l'espace à gauche */
+}
+.shop-now {
+  border: 1px solid black; /* Bordure noire de 1 pixel */
+  display: inline-block; /* Pour ajuster la bordure autour du texte */
+  padding: 10px 15px; /* Un peu de padding pour l'espace autour du texte */
+  border-radius: 30px;
+}
+.shop-now:hover {
+  background-color: black;
+  color: white;
+}
+.button-icon {
+  color: grey;
+}
+.button-rose {
+  color: #ff324d;
+}
+.livraison_container {
+  border: 1px solid grey; /* Bordure noire de 1 pixel */
+  display: inline-block; /* Pour ajuster la bordure autour du texte */
+  padding: 10px 30px;
+}
+.logo_rouge {
+  height: 50px;
+}
+.color_grey {
+  color: grey;
+}
+.line-below::after {
+  content: "";
+  display: block;
+  width: 100px; /* Largeur de la ligne */
+  height: 2px; /* Épaisseur de la ligne */
+  background-color: #ff324d; /* Couleur de la ligne */
+  margin: 0 auto; /* Centrer la ligne */
+  margin-top: 20px;
+}
+.fourniture {
+  border: 1px solid grey;
+}
+.color_rose {
+  color: #ff324d;
+}
+.text_barré {
+  text-decoration: line-through;
+  color: grey;
+}
